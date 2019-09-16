@@ -9,4 +9,9 @@ function forLoop(array) {
   return array;
 }
 
+let countdown
 function whileLoop(array) {
+  while ([countdown > 0]) {
+  [loopBody];
+}
+}
