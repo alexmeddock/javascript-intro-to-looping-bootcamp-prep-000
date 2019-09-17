@@ -18,3 +18,11 @@ function whileLoop(n) {
     return "done";
   }
 
+function incrementVariable(i) {
+  i = i + 1;
+  return i;
+}
+ 
+do {
+  console.log("doo-bee-doo-bee-doo");
+} while (incrementVariable() < 5);
